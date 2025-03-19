@@ -30,3 +30,10 @@ public event Action OnPlayerDie
     }
 }
 ```
+- Методы (PascalCase)
+```csharp
+private void SampleMethod()
+{
+    //логика
+}
+```
