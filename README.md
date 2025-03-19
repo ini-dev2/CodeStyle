@@ -16,7 +16,7 @@ private const int _sampleValue;
 ```csharp
 private event Action _onPlayerDie;
 ```
-- "Свойство"- события
+- "Свойства"- события
 ```csharp
 public event Action OnPlayerDie
 {
