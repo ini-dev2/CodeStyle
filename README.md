@@ -1,5 +1,5 @@
 # CodeStyle
-## Наименования
+## Именования
 - Переменные (camelCase)
 ```csharp
 private int sampleValue;
@@ -33,6 +33,20 @@ public event Action OnPlayerDie
 - Методы (PascalCase)
 ```csharp
 private void SampleMethod()
+{
+    //логика
+}
+```
+- Классы, интерфейсы, структуры (PascalCase)
+```csharp
+private class Class
+{
+    //логика
+}
+```
+- Перечисления (PascalCase + Enums)
+```csharp
+private enum SampleEnums
 {
     //логика
 }
