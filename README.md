@@ -12,3 +12,21 @@ private const int SAMPLE_VALUE;
 ```csharp
 private const int _sampleValue;
 ```
+- События
+```csharp
+private event Action _onPlayerDie;
+```
+- "Свойство"- события
+```csharp
+public event Action OnPlayerDie
+{
+    add
+    {
+        //логика
+    }
+    remove
+    {
+        //логика
+    }
+}
+```
