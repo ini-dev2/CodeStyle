@@ -37,9 +37,16 @@ private void SampleMethod()
     //логика
 }
 ```
-- Классы, интерфейсы, структуры (PascalCase)
+- Классы, структуры (PascalCase)
 ```csharp
 private class Class
+{
+    //логика
+}
+```
+- Интерфейсы
+```csharp
+private class IInterface
 {
     //логика
 }
