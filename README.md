@@ -51,6 +51,13 @@ private interface IInterface
     //логика
 }
 ```
+- Абстрактные классы
+```csharp
+private class BaseHuman
+{
+    //логика
+}
+```
 - Перечисления (PascalCase + Enums)
 ```csharp
 private enum SampleEnums
@@ -108,6 +115,7 @@ public class Player
 ```
 - Вложенные классы ??
 - Функции ??
+- Автосвойства ??
 ## Архитектура
 - Разделение логики на уровни:
    - Presentation Layer - Отвечает за рендер, UI и анимации.
