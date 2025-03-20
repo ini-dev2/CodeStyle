@@ -46,7 +46,7 @@ private class Class
 ```
 - Интерфейсы
 ```csharp
-private class IInterface
+private interface IInterface
 {
     //логика
 }
