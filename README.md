@@ -81,6 +81,33 @@ private void Method2()
     //логика
 }
 ```
+## Организация кода
+- Лямбда-выражения для однострочных методов
+```csharp
+{
+    private void Log() => Debug.Log("Log");
+}
+```
+- Когда использовать свойство, когда метод (свойство - качество объекта(жизни), метод - поведение (нанесение урона))
+```csharp
+public class Player
+{
+// свойство как качество объекта Player
+    private int Health { get; private set; } = 100;
+    public bool IsDead => Health <= 0;
+}
+public class Player
+{
+    private int Health { get; private set; } = 100;
+    public void TakeDamage(int amount)
+    {
+        Health -= amount;
+        if (Health < 0) Health = 0;
+    }
+}
+```
+- Вложенные классы ??
+- Функции ??
 ## Архитектура
 - Разделение логики на уровни:
    - Presentation Layer - Отвечает за рендер, UI и анимации.
@@ -116,3 +143,17 @@ private void Method2()
     }
 }
 ```
+- Использование абстракций ?? не прямые зависимости, а интерфейсы??, абстрактые классы??
+## Структура проекта
+-Assets
+  -Scenes
+  -Scripts
+    -Infrastructure
+    -Domain 
+    -Application
+    -Presentation 
+  -Prefabs
+  -Materials
+  -Animations
+  -Resources
+  -Addressables
