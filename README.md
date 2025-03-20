@@ -145,15 +145,15 @@ public class Player
 ```
 - Использование абстракций ?? не прямые зависимости, а интерфейсы??, абстрактые классы??
 ## Структура проекта
--Assets
-  -Scenes
-  -Scripts
-    -Infrastructure
-    -Domain 
-    -Application
-    -Presentation 
-  -Prefabs
-  -Materials
-  -Animations
-  -Resources
-  -Addressables
+- Assets
+  - Scenes
+  - Scripts
+    - Infrastructure
+    - Domain 
+    - Application
+    - Presentation 
+  - Prefabs
+  - Materials
+  - Animations
+  - Resources
+  - Addressables
