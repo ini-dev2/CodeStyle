@@ -87,4 +87,32 @@ private void Method2()
    - Application Layer - Мост между бизнес-логикой и Unity-компонентами. Зависит от MonoBehavior. (GameManager, LevelManager)
    - Domain Layer - Основная игровая логика. Чистый C#, не зависящий от Unity API. ( PlayerData, InvetoryItem )
    - Infrastructure Layer - Отвечает за работу с файлами, сетью, базами данных, аппаратными API. (SaveSystem, LoadSystem, NetworkService)
-- 123   
+- Использование DI (Zenject?, VContainer?, ServiceLocator, Bootstrap)
+- Соблюдение SOLID (время? - стоит?)
+- Паттерны (ситуации, где и как)
+- ООП
+   - Инкапуслирование данных
+```csharp
+{
+    private int result;
+    public int Result => result;  
+}
+
+{
+    private event Action _onPlayerDie;
+    public event Action OnPlayerDie
+    {
+        add
+        {
+            if (value is not null)
+            {
+                //логика
+            }
+        }
+        remove
+        {
+            //логика
+        }
+    }
+}
+```
