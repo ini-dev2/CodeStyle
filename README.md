@@ -10,7 +10,7 @@ private const int SAMPLE_VALUE;
 ```
 - Приватные, инъекции (_camelCase)
 ```csharp
-private const int _sampleValue;
+private int _sampleValue;
 ```
 - События
 ```csharp
