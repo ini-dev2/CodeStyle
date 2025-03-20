@@ -118,6 +118,7 @@ public class Player
 - Автосвойства ??
 - GetComponent ??
 - Корутины ?? async/await, task ??
+- Тернарные операции ??
 ## Архитектура
 - Разделение логики на уровни:
    - Presentation Layer - Отвечает за рендер, UI и анимации.
