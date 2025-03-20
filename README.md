@@ -123,6 +123,7 @@ public class Player
 - var или явные типы ??
 - типизация ??
 - Использование атрибутов (RequerComponent, CustomEditor, свои атрибуты)
+- События в OnEnabled += , в OnDisable -=
 ## Архитектура
 - Разделение логики на уровни:
    - Presentation Layer - Отвечает за рендер, UI и анимации.
